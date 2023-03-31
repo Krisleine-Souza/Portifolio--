@@ -1,0 +1,21 @@
+.text-content > p {
+    display: block;
+	margin: 0 auto;
+    padding: 20px;
+	height: 100px;
+	width: 400px;
+	object-fit: cover;
+	border: 2px solid var(--borderColor)
+}
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+    background-image: url('/assets/imagens/quartog.png');
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-position: 10%;
+
+    background-color: #0b5166;
