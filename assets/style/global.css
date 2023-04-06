@@ -205,7 +205,7 @@ nav{
 
 header {
     display: flex;
-    background-image: url('/assets/imagens/quartog.png');
+    background-image: url('../imagens/quartog.png');
     background-repeat: no-repeat;
     background-size: 100vw;
     background-position: center;
