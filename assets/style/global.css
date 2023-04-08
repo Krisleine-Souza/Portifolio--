@@ -186,7 +186,6 @@ nav{
     justify-content: center;
     flex-direction: row;
     padding: 20px;
-    margin: auto;
 }
 
 .container-fluid {
@@ -261,6 +260,8 @@ header time:hover{
 }
 .time {
     border-radius: 10% 10% 10% 10%;
+    margin-left: -10px;
+
 }
 .date {
     border-radius: 10% 10% 10% 10%;
@@ -268,8 +269,9 @@ header time:hover{
 }
 
 .left-column{
-	grid-area: left-column;
-	padding-right: 200px;
+    background-image: url('../imagens/programadora2.png');
+    text-align: left; 
+	padding: 200px;
 
 }
 .text-content ul {
