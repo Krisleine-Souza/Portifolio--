@@ -240,17 +240,45 @@ header p {
 header p:hover {
     border-width: 5px;
 }
+header time {
+    /*  center content  */
+    color: white;
+    align-content: justify;
+    width: 150px;
+    height: 20px;
+    margin-left: 0px;
+    margin-top: 20px;
+    border: solid 2px var(--borderColor);
+    padding: 10px;
+    overflow-y: hidden;
+    font-size: 10px;
+    text-align: center;
+    box-shadow: 8px 8px 1px 2px rgba(0, 0, 0, 0.363);
+    text-shadow: 2px 0px 3px black;
+}
+header time:hover{
+    border-width: 5px;
+}
+.time {
+    border-radius: 10% 10% 10% 10%;
+}
+.date {
+    border-radius: 10% 10% 10% 10%;
+    
+}
+
 .left-column{
 	grid-area: left-column;
 	padding-right: 200px;
 
 }
 .text-content ul {
-    margin-top: 20px;
+    padding-top: 20px;
 }
 
 .text-content {
     width: 100%;
+    padding-left: 2%;
 }
 
 .text-content li {
