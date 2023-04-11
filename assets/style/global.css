@@ -225,9 +225,9 @@ header h1 {
 }
 
 header p {
-    padding: 20px;
-	height: 100px;
-	width: 400px;
+    padding: 15px;
+	height: 95px;
+	width: 360px;
     line-height: 26px;
     color: white;
     display: block;
@@ -243,12 +243,12 @@ header time {
     /*  center content  */
     color: white;
     align-content: justify;
-    width: 150px;
-    height: 20px;
+    width: 130px;
+    height: 16px;
     margin-left: 0px;
     margin-top: 20px;
-    border: solid 2px var(--borderColor);
-    padding: 10px;
+    border: solid 1px var(--borderColor);
+    padding: 7px;
     overflow-y: hidden;
     font-size: 10px;
     text-align: center;
@@ -256,7 +256,7 @@ header time {
     text-shadow: 2px 0px 3px black;
 }
 header time:hover{
-    border-width: 5px;
+    border-width: 3px;
 }
 .time {
     border-radius: 10% 10% 10% 10%;
@@ -265,13 +265,15 @@ header time:hover{
 }
 .date {
     border-radius: 10% 10% 10% 10%;
-    
+    width: 155px;
 }
 
 .left-column{
     background-image: url('../imagens/programadora2.png');
     text-align: left; 
 	padding: 200px;
+    display: flex;
+    text-align: auto;
 
 }
 .text-content ul {
