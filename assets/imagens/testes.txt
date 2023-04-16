@@ -1,0 +1,31 @@
+    .lg-nav {
+        display: none;
+    }
+
+    .sm-nav {
+        display: block;
+        font-size: 18px;
+    }
+
+
+
+
+        nav {
+            font-size: 10px;
+        }
+
+        .container {
+            display: flex;
+        }
+
+                
+                <h5 style="text-align: left; line-height: 0">
+
+        align-content: justify;
+
+            display: flex;
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <meta name="robots" content="index">
+
+    <meta name="description" content="Portfólio de projetos criado por Krisleine Souza durante a sua carreira de desenvolvedor">
+    <meta name="author" content="Krisleine Souza">
