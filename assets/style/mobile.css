@@ -170,10 +170,7 @@
     }
     header {
         display: flex;
-        background-image: url('../imagens/backestrelado.jpg');
-        background-repeat: no-repeat;
-        background-size: 100vw;
-        background-position: center;
+        background-color: #08496e;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
