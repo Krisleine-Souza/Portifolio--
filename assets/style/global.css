@@ -87,7 +87,7 @@ nav{
 .nav-container {
     width: 100vw;
     font-weight: 500;
-    background-color: #16425b;
+    background-color: #08496e;
     color: white;
 }
 
@@ -204,10 +204,7 @@ nav{
 
 header {
     display: flex;
-    background-image: url('../imagens/backestrelado.jpg');
-    background-repeat: no-repeat;
-    background-size: 100vw;
-    background-position: center;
+    background-color: #16425b;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -276,6 +273,29 @@ header time:hover{
     text-align: auto;
 
 }
+
+.text-content h1{
+    padding: 0;
+    margin-top: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: .15em solid pink;
+    animation: 
+      typing 3.5s steps(30, end)infinite, 
+      blink-caret 1s step-end;
+  }
+  
+  /* Efeito de digitação */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* Efeito do cursor */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(250, 250, 250) }
+  }
 .text-content ul {
     padding-top: 20px;
 }
